@@ -30,5 +30,8 @@
     left: 375px;
     align-items: center;
     justify-items: center;
-    font-family: consolas;
+    font-family: 'Trebuchet MS';
+}
+.notícias{
+    font-weight: lighter;
 }
