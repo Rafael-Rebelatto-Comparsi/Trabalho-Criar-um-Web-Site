@@ -6,7 +6,29 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 65px;
+    height: 70px;
     width: 1920px;
     background-color:#000217;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 100px;
+    top: 0px ;
+    left: 300px;
+    align-items: center;
+    justify-items: center;
+}
+.Nome_do_site{
+    color: #3fa9f5;
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 150px;
+    top: 0px ;
+    left: 375px;
+    align-items: center;
+    justify-items: center;
+    font-family: consolas;
 }
