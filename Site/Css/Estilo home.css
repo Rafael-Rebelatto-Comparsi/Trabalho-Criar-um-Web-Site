@@ -1,7 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 .cabeçalho{
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 50px;
+    height: 65px;
     width: 1920px;
+    background-color:#000217;
 }
