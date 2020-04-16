@@ -20,6 +20,7 @@
     left: 300px;
     align-items: center;
     justify-items: center;
+    background-color: burlywood;
 }
 .Nome_do_site{
     color: #3fa9f5;
@@ -39,4 +40,16 @@
 .link{
     text-decoration: none;
     color: #3fa9f5 ;
+}
+.link_contato{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 100px;
+    top: 0px ;
+    left: 275px;
+    background-color: burlywood;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
