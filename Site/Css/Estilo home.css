@@ -37,11 +37,11 @@
 .notícias{
     font-weight: lighter;
 }
-.link{
+.link_logo{
     text-decoration: none;
     color: #3fa9f5 ;
 }
-.link_contato{
+.link_sobre{
     position: absolute;
     display: flex;
     height: 70px;
@@ -52,4 +52,6 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5 ;
 }
