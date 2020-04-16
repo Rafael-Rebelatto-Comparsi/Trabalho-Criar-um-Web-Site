@@ -47,6 +47,20 @@
     width: 100px;
     top: 0px ;
     left: 275px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5 ;
+    font-size: 16px;
+}
+.link_contato{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 125px;
+    top: 0px ;
+    left: 375px;
     background-color: burlywood;
     text-align: center;
     align-items: center;
