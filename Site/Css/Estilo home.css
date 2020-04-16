@@ -35,3 +35,7 @@
 .notícias{
     font-weight: lighter;
 }
+.link{
+    text-decoration: none;
+    color: #3fa9f5 ;
+}
