@@ -4,10 +4,10 @@
 }
 .cabeçalho{
     position: absolute;
+    display: flex;
     top: 0px;
-    left: 0px;
     height: 70px;
-    width: 1920px;
+    width: 100%;
     background-color:#000217;
     box-shadow: -0px 1px 5px #3fa9f5;
 }
@@ -16,8 +16,6 @@
     display: flex;
     height: 70px;
     width: 290px;
-    top: 0px ;
-    left: 300px;
     align-items: center;
     justify-items: center;
 }
@@ -27,8 +25,7 @@
     display: flex;
     height: 70px;
     width: 150px;
-    top: 0px ;
-    left: 375px;
+    left: 75px;
     align-items: center;
     justify-items: center;
     font-family: 'Trebuchet MS';
@@ -114,4 +111,12 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.teste{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 890px;
+    top: 0px ;
+    left: 26%;
 }
