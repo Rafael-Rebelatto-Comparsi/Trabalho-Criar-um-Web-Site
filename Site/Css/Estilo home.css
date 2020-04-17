@@ -86,10 +86,22 @@
     position: absolute;
     display: flex;
     height: 70px;
-    width: 125px;
+    width: 50px;
     top: 0px ;
-    left: 625px;
+    left: 675px;
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+.link_twiter{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    top: 0px ;
+    left: 725px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
 }
