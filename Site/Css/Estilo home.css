@@ -104,3 +104,14 @@
     align-items: center;
     justify-content: center;
 }
+.link_instagram{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    top: 0px ;
+    left: 775px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
