@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cabeçalho{
+    position: absolute;
+    display: flex;
+    top: 0px;
+    height: 70px;
+    width: 100%;
+    background-color:#000217;
+    box-shadow: -0px 1px 5px #3fa9f5;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 290px;
+    align-items: center;
+    justify-items: center;
+}
+.Nome_do_site{
+    color: #3fa9f5;
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 150px;
+    left: 75px;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Trebuchet MS';
+}
+.notícias{
+    font-weight: lighter;
+}
+.link_logo{
+    text-decoration: none;
+    color: #3fa9f5 ;
+}
+.link_sobre{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 100px;
+    top: 0px ;
+    left: 275px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5;
+    font-size: 16px;
+}
+.link_contato{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 125px;
+    top: 0px ;
+    left: 375px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5;
+    font-size: 16px;
+}
+.link_noticias{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 125px;
+    top: 0px ;
+    left: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5;
+    font-size: 16px;
+}
+.link_facebook{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    top: 0px ;
+    left: 675px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.link_twiter{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    top: 0px ;
+    left: 725px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.link_instagram{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 50px;
+    top: 0px ;
+    left: 775px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.teste{
+    position: absolute;
+    display: flex;
+    height: 70px;
+    width: 890px;
+    top: 0px ;
+    left: 26%;
+}
