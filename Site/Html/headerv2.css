@@ -52,13 +52,13 @@ body {
 }
 
 .footer img{
-    position: relative;
+    float: left;
     display: inline-block;
     left: 1px;
 }
 
 .footer a{
-    float: right;
+    float: left;
     display: inline-block;
     color: #3fa9f5;
     text-align: center;
