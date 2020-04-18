@@ -4,13 +4,15 @@
   
 body {
     font-family: Arial;
-    padding: 10px;
     background:rgb(200, 200, 200);
+    min-width: 100px;
 }
-  
   
 .nav {
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 0;
     background-color:#000217;
     box-shadow: -0px 1px 5px #3fa9f5;
 }
@@ -20,8 +22,9 @@ body {
     display: block;
     color: #3fa9f5;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    font-size: 10px;
+    padding: 10px 3%;
 }
 
 .nav a:hover {
@@ -29,9 +32,77 @@ body {
     color: #3fa9f5;
 }
  
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 940px) {
     .nav a {
       float: none;
       width: 100%;
+
     }
 }
+
+.footer{
+    overflow: hidden;
+    width: 100%;
+    background-color:#000217;
+    box-shadow: 1px 0px 5px #3fa9f5;
+}
+
+.footer img{
+    position: relative;
+    display: inline-block;
+    left: 1px;
+}
+
+.footer a{
+    float: right;
+    display: inline-block;
+    color: #3fa9f5;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 2%;
+    margin: 2%;
+}
+
+.footer a:hover{
+    background-color: #3e3e52;
+    color: #ffffff;
+}
+
+
+
+
+/* 
+    Conteudo place holder pra ver como fica a página
+                apagar após finalizar
+*/
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
