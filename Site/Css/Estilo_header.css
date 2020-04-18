@@ -1,162 +1,127 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    font-family: 'Trebuchet MS';
+* {
+    box-sizing: border-box;
 }
-.cabeçalho{
-    position: absolute;
-    display: flex;
-    top: 0px;
-    height: 70px;
-    width: 100%;
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    background:rgb(200, 200, 200);
+    min-width: 10 0px;
+}
+  
+.nav {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    padding: 0;
     background-color:#000217;
     box-shadow: -0px 1px 5px #3fa9f5;
 }
-.logo{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 290px;
-    align-items: center;
-    justify-items: center;
-}
-.Nome_do_site{
+
+.nav a{
+    float: left;
+    display: block;
     color: #3fa9f5;
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 150px;
-    left: 75px;
-    align-items: center;
-    justify-items: center;
-}
-.notícias{
-    font-weight: lighter;
-}
-.link_logo{
-    text-decoration: none;
-    color: #3fa9f5 ;
-}
-.link_sobre{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 100px;
-    top: 0px ;
-    left: 275px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+.nav a h1{
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.nav a:hover {
+    background-color: #3e3e52;
     color: #3fa9f5;
-    font-size: 16px;
 }
-.link_contato{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 125px;
-    top: 0px ;
-    left: 375px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #3fa9f5;
-    font-size: 16px;
+ 
+@media screen and (max-width: 940px) {
+    .nav a {
+      float: none;
+      width: 100%;
+
+    }
 }
-.link_noticias{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 125px;
-    top: 0px ;
-    left: 500px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    color: #3fa9f5;
-    font-size: 16px;
-}
-.link_facebook{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 50px;
-    top: 0px ;
-    left: 675px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.link_twiter{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 50px;
-    top: 0px ;
-    left: 725px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.link_instagram{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 50px;
-    top: 0px ;
-    left: 775px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-.conteiner{
-    position: absolute;
-    display: flex;
-    height: 70px;
-    width: 890px;
-    top: 0px ;
-    left: 26%;
-}
-/*Rodape*/
+
 .footer{
-    position: absolute;
-    bottom: 0px;
-    height: 250px;
+    overflow: hidden;
     width: 100%;
     background-color:#000217;
     box-shadow: 1px 0px 5px #3fa9f5;
 }
-.logo2{
-    position: relative;
-    display: flex;
-    height: 250px;
-    width: 250px;
-    align-items: center;
-    justify-items: center;
-    left: 0%;
+
+.footer img{
+    float: left;
+    display: block;
+    left: 1px;
 }
-.link_sobre2{
-    position: absolute;
-    display: flex;
-    height: 100px;
-    width: 100px;
-    bottom: 100px;
-    left: 25%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+
+.footer a{
+    float: left;
+    display: block;
     color: #3fa9f5;
-    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px 2%;
+    margin: 20px;
 }
-.conteiner2{
-    position: absolute;
-    display: flex;
-    height: 250px;
-    width: 890px;
-    top: 0px ;
-    left: 26%;
+
+.footer a:hover{
+    background-color: #3e3e52;
+    color: #ffffff;
 }
+
+.botaotopo{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* 
+Conteudo place holder pra ver como fica a página
+            apagar após finalizar
+*/
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
