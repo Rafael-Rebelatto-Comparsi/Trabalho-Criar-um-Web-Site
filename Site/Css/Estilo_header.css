@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: 'Trebuchet MS';
 }
 .cabeçalho{
     position: absolute;
@@ -28,7 +29,6 @@
     left: 75px;
     align-items: center;
     justify-items: center;
-    font-family: 'Trebuchet MS';
 }
 .notícias{
     font-weight: lighter;
@@ -112,10 +112,50 @@
     align-items: center;
     justify-content: center;
 }
-.teste{
+.conteiner{
     position: absolute;
     display: flex;
     height: 70px;
+    width: 890px;
+    top: 0px ;
+    left: 26%;
+}
+/*Rodape*/
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 250px;
+    width: 100%;
+    background-color:#000217;
+    box-shadow: 1px 0px 5px #3fa9f5;
+}
+.logo2{
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    justify-items: center;
+    left: 0%;
+}
+.link_sobre2{
+    position: absolute;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    bottom: 100px;
+    left: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #3fa9f5;
+    font-size: 16px;
+}
+.conteiner2{
+    position: absolute;
+    display: flex;
+    height: 250px;
     width: 890px;
     top: 0px ;
     left: 26%;
