@@ -41,7 +41,7 @@ body {
     color: #3fa9f5;
 }
  
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 400px) {
     .nav a {
       float: none;
       width: 100%;
