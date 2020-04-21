@@ -10,6 +10,7 @@ body {
     font-family: Arial;
     background:rgb(200, 200, 200);
     min-width: 10 0px;
+    margin: 0px;
 }
   
 .nav {
@@ -45,7 +46,6 @@ body {
     .nav a {
       float: none;
       width: 100%;
-
     }
 }
 
@@ -114,7 +114,6 @@ Conteudo place holder pra ver como fica a página
     float: left;
     width: 25%;
     background-color: transparent;
-    padding-left: 20px;
   }
   
   .fakeimg {
@@ -129,6 +128,7 @@ Conteudo place holder pra ver como fica a página
     margin-top: 20px;
     margin-bottom: 20px;
     color: #000217;
+    margin: 20px;
   }
   
   .row:after {
@@ -136,4 +136,3 @@ Conteudo place holder pra ver como fica a página
     display: table;
     clear: both;
   }
-  
