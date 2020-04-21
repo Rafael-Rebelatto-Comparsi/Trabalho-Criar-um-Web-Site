@@ -122,6 +122,12 @@ body {
     color: #3fa9f5;
     font-weight: bold;
 }
+
+.maisacessados a:visited{
+    text-decoration: none;
+    color: #3fa9f5;
+    font-weight: bold;
+}
 /* 
 Conteudo place holder pra ver como fica a página
             apagar após finalizar
