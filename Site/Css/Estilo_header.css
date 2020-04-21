@@ -63,14 +63,10 @@ body {
 }
 
 .footer a{
-    float: left;
-    display: block;
     color: #3fa9f5;
-    text-align: center;
     text-decoration: none;
-    font-size: 15px;
-    padding: 15px 2%;
-    margin: 20px;
+    font-size: 10px;
+    padding: 26px;
 }
 
 .footer a:hover{
@@ -101,6 +97,16 @@ body {
     height: 235px;
 }
 
+#links{
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    left: 6%;
+    width: 50%;
+    height: 102px;
+
+}
 /* 
 Conteudo place holder pra ver como fica a página
             apagar após finalizar
