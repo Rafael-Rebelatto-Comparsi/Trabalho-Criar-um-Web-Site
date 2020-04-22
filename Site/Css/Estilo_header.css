@@ -41,13 +41,6 @@ body {
     color: #3fa9f5;
 }
  
-@media screen and (max-width: 600px) {
-    .nav a {
-      float: none;
-      width: 100%;
-    }
-}
-
 .footer{
     display: flex;
     flex-wrap: wrap;
@@ -92,7 +85,7 @@ body {
 
 section div img{
     height:200px;
-    
+    max-width: 100%;
 }
 
 .gif1{
@@ -135,6 +128,19 @@ section div img{
     margin-bottom: 20px;
     color: #000217;
     margin: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .nav a {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .colunaesq, .colunadir {   
+      width: 100%;
+      padding: 0;
+    }
 }
   
 /* 
