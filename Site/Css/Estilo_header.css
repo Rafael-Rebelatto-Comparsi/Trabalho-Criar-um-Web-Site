@@ -9,7 +9,6 @@ html{
 body {
     font-family: Arial;
     background:rgb(200, 200, 200);
-    min-width: 10 0px;
     margin: 0px;
 }
   
@@ -42,7 +41,7 @@ body {
     color: #3fa9f5;
 }
  
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .nav a {
       float: none;
       width: 100%;
@@ -50,23 +49,29 @@ body {
 }
 
 .footer{
-    overflow: hidden;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
     background-color:#000217;
     box-shadow: 1px 0px 5px #3fa9f5;
 }
+.menu{
+    display: flex;
+}
 
-.footer img{
-    float: left;
-    display: block;
-    left: 1px;
+.footer li{
+    margin-right: 10px;
+    list-style: none;
 }
 
 .footer a{
+    display: block;
     color: #3fa9f5;
     text-decoration: none;
-    font-size: 10px;
-    padding: 26px;
+    font-size: 15px;
+    padding: 20px;
 }
 
 .footer a:hover{
@@ -85,30 +90,16 @@ body {
     text-align: center;
 }
 
-.imagem1{
-    width: 100%;
+section div img{
     height:200px;
-}
-.imagem2{
-    height: 200px;
+    
 }
 
 .gif1{
     height: 235px;
 }
 
-#links{
-    display: flex;
-    position: absolute;
-    justify-items: center;
-    align-items: center;
-    left: 6%;
-    width: 50%;
-    height: 102px;
-}
-
 .maisacessados{
-    width: 100%;
     padding: 20px;
 }
 
@@ -119,49 +110,41 @@ body {
 }
 
 .maisacessados a:hover{
-    text-decoration: none;
     color: #3fa9f5;
-    font-weight: bold;
 }
 
 .maisacessados a:visited{
-    text-decoration: none;
-    color: #3fa9f5;
-    font-weight: bold;
+    color: #5a0456;
 }
 
-/* 
-Conteudo place holder pra ver como fica a página
-            apagar após finalizar
-*/
-.leftcolumn {   
+.colunaesq {   
     float: left;
     width: 75%;
-  }
+}
   
-  .rightcolumn {
+.colunadir {
     float: left;
     width: 25%;
     background-color: transparent;
-  }
+}
   
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  .card {
+.moldura {
     background-color: white;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #000217;
     margin: 20px;
-  }
+}
   
-  .row:after {
+/* 
+Conteudo place holder pra ver como fica a página
+            apagar após finalizar
+*/
+
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
