@@ -92,7 +92,8 @@ section div img{
 .tituloetexto{
     display: flex;
     flex-wrap: wrap;  
-    margin-left: 3%;
+    margin-left: 1%;
+    text-align: justify;
 }
 #imagem{
     display: flex;
