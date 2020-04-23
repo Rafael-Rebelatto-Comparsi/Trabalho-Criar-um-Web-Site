@@ -44,9 +44,8 @@ body {
 .footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 10px;
     background-color:#000217;
     box-shadow: 1px 0px 5px #3fa9f5;
 }
@@ -60,16 +59,19 @@ body {
 }
 
 .footer a{
-    display: block;
+    display: flex;
+    justify-content: space-around;
     color: #3fa9f5;
     text-decoration: none;
     font-size: 15px;
     padding: 20px;
+    width: 150%;
+    font-weight: bold;
 }
 
 .footer a:hover{
     background-color: #3e3e52;
-    color: #ffffff;
+    color: #3fa9f5;
 }
 
 .botaotopo{
