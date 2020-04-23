@@ -49,17 +49,18 @@ body {
     list-style: none;
 }
 .footer a{
-    display: flex;
-    justify-content: space-around;
     color: #3fa9f5;
     text-decoration: none;
     font-size: 15px;
-    padding: 20px;
+    padding: 43px;
     font-weight: bold;
 }
 .footer a:hover{
     background-color: #3e3e52;
     color: #3fa9f5;
+}
+.posicaolinkfooter{
+    display: flex;
 }
 .botaotopo{
     position: fixed;
@@ -140,9 +141,6 @@ section div img{
       width: 100%;
       padding: 0;
     }
-}
-.posicaolinkfooter{
-    display: flex;
 }
 /* 
 Conteudo place holder pra ver como fica a página
