@@ -102,6 +102,7 @@ section div img{
 }
 .maisacessados{
     padding: 20px;
+    text-align: justify;
 }
 .maisacessados a{
     text-decoration: none;
