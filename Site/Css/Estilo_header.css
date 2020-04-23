@@ -5,7 +5,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    font-family: Arial;
+    font-family: 'Trebuchet MS';
     background:rgb(200, 200, 200);
     margin: 0px;
 }
@@ -80,9 +80,24 @@ section div img{
 .gif1{
     height: 235px;
 }
-.gifposição{
+.posiçãocentral{
     display: flex;
     justify-content: center;
+}
+.posiçãoaoslados{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.tituloetexto{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-left: 3%;
+}
+#imagem{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
 }
 .maisacessados{
     padding: 20px;
