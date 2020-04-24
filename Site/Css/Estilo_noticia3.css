@@ -118,14 +118,14 @@ section div img{
 }
 #colunaesq {   
     float: left;
-    width: 60%;
-    margin-left: 5%;
+    width: 50%;
+    margin-left: 10%;
 } 
 #colunadir {
     float: left;
     width: 30%;
     background-color: transparent;
-    margin-right: 5%;
+    margin-right: 10%;
 } 
 .moldura {
     background-color: white;
