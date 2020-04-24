@@ -94,10 +94,16 @@ section div img{
     margin-left: 1%;
     text-align: justify;
 }
-.tituloetexto1{
+#tituloetexto1{
     display: flex;
     flex-wrap: wrap;  
     margin-left: 2%;
+    text-align: justify;
+}
+#tituloetexto2{
+    display: flex;
+    flex-wrap: wrap;  
+    margin-left: 4%;
     text-align: justify;
 }
 #imagem{
