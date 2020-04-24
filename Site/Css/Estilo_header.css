@@ -134,6 +134,14 @@ section div img{
     color: #000217;
     margin: 25px;
 }
+.moldura a{
+    text-decoration: none;
+    color:#000217;
+}
+.moldura a:hover{
+    text-decoration: none;
+    color:#3fa9f5;
+}
 @media screen and (max-width: 800px) {
     .colunaesq, .colunadir {   
       width: 100%;
