@@ -99,6 +99,7 @@ section div img{
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
+    height: 200px;
 }
 .maisacessados{
     padding: 20px;
@@ -110,9 +111,6 @@ section div img{
     color: #000217;
     font-weight: bold;
     color: #3fa9f5;
-}
-.maisacessados a:hover{
-    background:rgb(200, 200, 200);
 }
 .maisacessados a:visited{
     color: #5a0456;
