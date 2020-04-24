@@ -92,8 +92,14 @@ section div img{
 .tituloetexto{
     display: flex;
     flex-wrap: wrap;  
-    margin-left: 2%;
+    margin-left: 1%;
     text-align: justify;
+}
+.rtx {
+    margin-left: 2%;
+}
+.ifa{
+    margin-left: 4%;
 }
 #imagem{
     display: flex;
