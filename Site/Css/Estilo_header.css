@@ -9,6 +9,9 @@ body {
     background:rgb(200, 200, 200);
     margin: 0px;
 }
+ul{
+    list-style: none;
+}
 .nav {
     overflow: hidden;
     position: sticky;
@@ -34,10 +37,10 @@ body {
     background-color: #3e3e52;
     color: #3fa9f5;
 }
-.footer{
+footer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     background-color:#000217;
     box-shadow: 1px 0px 5px #3fa9f5;
@@ -45,21 +48,18 @@ body {
 .menu{
     display: flex;
 }
-.footer li{
+footer li{
     margin-right: 10px;
-    list-style: none;
 }
-.footer a{
+footer a{
     display: flex;
-    justify-content: space-around;
     color: #3fa9f5;
     text-decoration: none;
     font-size: 15px;
     padding: 20px;
-    width: 150%;
     font-weight: bold;
 }
-.footer a:hover{
+footer a:hover{
     background-color: #3e3e52;
     color: #3fa9f5;
 }
@@ -78,7 +78,7 @@ section div img{
     max-width: 100%;
 }
 .gif1{
-    height: 235px;
+    height: 100%;
 }
 .posiçãocentral{
     display: flex;
@@ -107,18 +107,19 @@ section div img{
     text-decoration: none;
     color: #000217;
     font-weight: bold;
+    color: #3fa9f5;
 }
 .maisacessados a:hover{
-    color: #3fa9f5;
+    background:rgb(200, 200, 200);
 }
 .maisacessados a:visited{
     color: #5a0456;
 }
-.colunaesq {   
+#colunaesq {   
     float: left;
     width: 75%;
 } 
-.colunadir {
+#colunadir {
     float: left;
     width: 25%;
     background-color: transparent;
@@ -132,14 +133,15 @@ section div img{
     margin: 20px;
 }
 @media screen and (max-width: 800px) {
-    .nav a {
-      width: 100%;
-    }
-}
-@media screen and (max-width: 800px) {
     .colunaesq, .colunadir {   
       width: 100%;
       padding: 0;
+    }
+    .nav a {
+        width: 100%;
+      }
+    .posiçãoaoslados {
+        display: block;
     }
 }
 /* 
