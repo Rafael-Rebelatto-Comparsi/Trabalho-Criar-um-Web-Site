@@ -111,10 +111,28 @@ section div img{
     text-decoration: none;
     color: #000217;
     font-weight: bold;
+}
+.maisacessados a:hover{
     color: #3fa9f5;
 }
 .maisacessados a:visited{
     color: #5a0456;
+}
+.titulolink{
+    text-decoration: none;
+    color: #000217;
+}
+.titulolink:hover{
+    text-decoration: none;
+    color: #3fa9f5;
+}
+.zoomlink a{
+    text-decoration: none;
+    color: #3fa9f5; 
+}
+.zoomlink a:hover{
+    text-decoration: underline;
+    color: #3fa9f5;
 }
 #colunaesq {   
     float: left;
@@ -134,14 +152,6 @@ section div img{
     margin-bottom: 20px;
     color: #000217;
     margin: 30px;
-}
-.moldura a{
-    text-decoration: none;
-    color:#000217;
-}
-.moldura a:hover{
-    text-decoration: none;
-    color:#3fa9f5;
 }
 @media screen and (max-width: 800px) {
     .colunaesq, .colunadir {   
