@@ -108,9 +108,6 @@ section div img{
 .maisacessados a{
     font-weight: bold;
 }
-.maisacessados a:visited{
-    color: #5a0456;
-}
 #colunaesq {   
     float: left;
     width: 50%;
