@@ -95,6 +95,9 @@ section div img{
     margin-left: 1%;
     text-align: justify;
 }
+.subtitulo{
+    font-size: 10pt;
+}
 #imagem{
     display: flex;
     flex-wrap: nowrap;
