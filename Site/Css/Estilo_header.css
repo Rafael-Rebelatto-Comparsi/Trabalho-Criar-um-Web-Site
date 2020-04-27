@@ -89,6 +89,9 @@ section div img{
     justify-items: center;
     align-items: center;
 }
+.subtitulo{
+    font-size: 10pt;
+}
 .tituloetexto{
     display: flex;
     flex-wrap: wrap;  
