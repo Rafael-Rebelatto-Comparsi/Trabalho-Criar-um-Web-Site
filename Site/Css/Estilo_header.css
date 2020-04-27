@@ -105,12 +105,8 @@ section div img{
     padding: 20px;
     text-align: justify;
 }
-
 .maisacessados a{
-    text-decoration: none;
-    color: #000217;
     font-weight: bold;
-    color: #3fa9f5;
 }
 .maisacessados a:visited{
     color: #5a0456;
@@ -139,7 +135,6 @@ section div img{
     color:#000217;
 }
 .moldura a:hover{
-    text-decoration: none;
     color:#3fa9f5;
 }
 @media screen and (max-width: 800px) {
