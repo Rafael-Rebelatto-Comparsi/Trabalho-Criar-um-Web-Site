@@ -36,6 +36,7 @@ ul{
 .nav a:hover {
     background-color: #3e3e52;
     color: #3fa9f5;
+    transition: ease-in-out 0.3s;
 }
 footer{
     display: flex;
@@ -55,6 +56,7 @@ footer a{
 footer a:hover{
     background-color: #3e3e52;
     color: #3fa9f5;
+    transition: ease-in-out 0.3s;
 }
 .posicaolinkfooter{
     display: flex;
