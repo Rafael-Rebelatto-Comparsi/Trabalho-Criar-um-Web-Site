@@ -132,6 +132,24 @@ p{
 .moldura a:hover{
     color:#3fa9f5;
 }
+/* noticias */
+.titulolink{
+    text-decoration: none;
+    color: #000217;
+}
+.titulolink:hover{
+    text-decoration: none;
+    color: #3fa9f5;
+}
+.zoomlink a{
+    text-decoration: none;
+    color: #3fa9f5; 
+}
+.zoomlink a:hover{
+    text-decoration: underline;
+    color: #3fa9f5;
+}
+
 @media screen and (max-width: 800px) {
     .colunaesq, .colunadir {   
       width: 100%;
@@ -144,6 +162,7 @@ p{
         display: block;
     }
 }
+
 /* 
 Conteudo place holder pra ver como fica a página
             apagar após finalizar
