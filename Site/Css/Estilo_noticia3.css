@@ -45,9 +45,6 @@ footer{
     background-color:#000217;
     box-shadow: 1px 0px 5px #3fa9f5;
 }
-.menu{
-    display: flex;
-}
 footer a{
     color: #3fa9f5;
     text-decoration: none;
@@ -58,7 +55,6 @@ footer a{
 footer a:hover{
     background-color: #3e3e52;
     color: #3fa9f5;
-    transition: 0.3s linear;
 }
 .posicaolinkfooter{
     display: flex;
@@ -90,14 +86,14 @@ section div img{
     justify-items: center;
     align-items: center;
 }
-.tituloetexto{
+.subtitulo{
+    font-size: 14px;
+}
+p{
     display: flex;
     flex-wrap: wrap;  
-    margin-left: 1%;
+    margin-left: 5px;
     text-align: justify;
-}
-.subtitulo{
-    font-size: 10pt;
 }
 #imagem{
     display: flex;
@@ -106,18 +102,9 @@ section div img{
     height: 100%;
     align-items: center;
 }
-.maisacessados{
-    padding: 20px;
+.maisacessados li{
+    padding: 5px;
     text-align: justify;
-}
-
-.maisacessados a{
-    text-decoration: none;
-    color: #000217;
-    font-weight: bold;
-}
-.maisacessados a:hover{
-    color: #3fa9f5;
 }
 .titulolink{
     text-decoration: none;
@@ -166,7 +153,6 @@ section div img{
         display: block;
     }
 }
-
 /* 
 Conteudo place holder pra ver como fica a página
             apagar após finalizar
