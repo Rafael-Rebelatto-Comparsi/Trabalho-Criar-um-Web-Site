@@ -108,14 +108,14 @@ p{
 }
 #colunaesq {   
     float: left;
-    width: 50%;
-    margin-left: 10%;
+    width: 60%;
+    margin-left: 5%;
 } 
 #colunadir {
     float: left;
     width: 30%;
     background-color: transparent;
-    margin-right: 10%;
+    margin-right: 5%;
 } 
 .moldura {
     background-color: white;
@@ -149,18 +149,20 @@ p{
     text-decoration: underline;
     color: #3fa9f5;
 }
-
-@media screen and (max-width: 800px) {
-    .colunaesq, .colunadir {   
+@media screen and (max-width: 1200px) {
+    .posiçãoaoslados{ 
+        display: block;
+    }
+}
+@media screen and (max-width: 890px) {
+    #colunaesq, #colunadir {   
       width: 100%;
       padding: 0;
+      margin: 0;
     }
     .nav a {
         width: 100%;
       }
-    .posiçãoaoslados {
-        display: block;
-    }
 }
 
 /* 
