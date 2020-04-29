@@ -58,11 +58,11 @@ footer a:hover{
     color: #3fa9f5;
     transition: ease-in-out 0.2s;
 }
-.posicaolinkfooter{
+.posição_link_footer{
     display: flex;
 }
 
-.botaotopo{
+.botao_topo{
     position: fixed;
     width: 50px;
     height: 50px;
@@ -79,11 +79,11 @@ section div img{
 .propagandas{
     height: 100%;
 }
-.posiçãocentral{
+.posição_central{
     display: flex;
     justify-content: center;
 }
-.posiçãoaoslados{
+.posição_aos_lados{
     display: flex;
     justify-items: center;
     align-items: center;
@@ -103,17 +103,17 @@ p{
     justify-content: left;
     height: 200px;
 }
-.maisacessados li{
+.mais_acessados li{
     padding: 5px;
     text-align: justify;
     font-weight: bold;
 }
-#colunaesq {   
+#coluna_esquerda {   
     float: left;
     width: 60%;
     margin-left: 5%;
 } 
-#colunadir {
+#coluna_direita {
     float: left;
     width: 30%;
     background-color: transparent;
@@ -152,12 +152,12 @@ p{
     color: #3fa9f5;
 }
 @media screen and (max-width: 1200px) {
-    .posiçãoaoslados{ 
+    .posição_aos_lados{ 
         display: block;
     }
 }
 @media screen and (max-width: 890px) {
-    #colunaesq, #colunadir {   
+    #coluna_esquerda, #coluna_direita {   
       width: 100%;
       padding: 0;
       margin: 0;
