@@ -167,10 +167,6 @@ p{
       }
 }
 
-/* 
-Conteudo place holder pra ver como fica a página
-            apagar após finalizar
-*/
 .row:after {
     content: "";
     display: table;
