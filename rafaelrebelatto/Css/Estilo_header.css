@@ -151,6 +151,12 @@ p{
     text-decoration: underline;
     color: #3fa9f5;
 }
+/*Sobre*/
+#logo_fundo{
+    background-color: #000217;
+    border-radius: 25px;
+}
+
 @media screen and (max-width: 1200px) {
     .posição_aos_lados{ 
         display: block;
